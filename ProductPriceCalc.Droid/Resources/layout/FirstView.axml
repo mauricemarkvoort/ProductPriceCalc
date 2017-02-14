@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Retail price"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="68.0dp"
+        android:id="@+id/editText1"
+        android:layout_marginBottom="17.5dp"
+        local:MvxBind="Text RetailPrice" />
+    <TextView
+        android:text="Tax"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="48.5dp"
+        android:id="@+id/seekBar1"
+        android:max="100"
+        local:MvxBind="Progress Tax" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_marginBottom="56.5dp"
+        local:MvxBind="Text Tax" />
+    <TextView
+        android:text="Profit"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="38.5dp"
+        android:id="@+id/seekBar2"
+        android:max="100"
+        local:MvxBind="Progress Profit" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        local:MvxBind="Text Profit" />
+    <TextView
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="54.5dp"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="55.0dp" 
+        local:MvxBind="Text TotalPrice"/>
+</LinearLayout>
