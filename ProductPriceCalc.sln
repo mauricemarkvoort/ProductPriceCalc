@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductPriceCalc.Droid", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductPriceCalc.Uwp", "ProductPriceCalc.Uwp\ProductPriceCalc.Uwp.csproj", "{D5D9B7D3-6C1A-401F-96F6-D3E762366A17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductPriceCalc.Touch", "ProductPriceCalc.Touch\ProductPriceCalc.Touch.csproj", "{C2E11D80-C8A4-4199-B78E-6DC2D497FB18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductPriceCalc.iOS", "ProductPriceCalc.Touch\ProductPriceCalc.iOS.csproj", "{C2E11D80-C8A4-4199-B78E-6DC2D497FB18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

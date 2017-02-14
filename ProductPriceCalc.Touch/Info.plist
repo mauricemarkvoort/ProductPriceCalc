@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>ProductPriceCalc.Touch</string>
+	<string>ProductPriceCalc.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.ProductPriceCalc.Touch</string>
+	<string>com.companyname.ProductPriceCalc.iOS</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

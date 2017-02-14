@@ -4,7 +4,7 @@ using MvvmCross.Platform;
 using Foundation;
 using UIKit;
 
-namespace ProductPriceCalc.Touch
+namespace ProductPriceCalc.iOS
 {
     [Register("AppDelegate")]
     public partial class AppDelegate : MvxApplicationDelegate

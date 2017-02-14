@@ -20,28 +20,28 @@ namespace ProductPriceCalc.Core.ViewModels
         public double RetailPrice
         {
             get { return _retailPrice; }
-            set { _retailPrice = value; RaisePropertyChanged(() => RetailPrice); Recalc(); }
+            set { SetProperty(ref _retailPrice, value); Recalc(); }
         }
 
         private double _tax;
         public double Tax
         {
             get { return _tax; }
-            set { _tax = value; RaisePropertyChanged(() => Tax); Recalc(); }
+            set { SetProperty(ref _tax, value); Recalc(); }
         }
 
         private double _profit;
         public double Profit
         {
             get { return _profit; }
-            set { _profit = value; RaisePropertyChanged(() => Profit); Recalc(); }
+            set { SetProperty(ref _profit, value); Recalc(); }
         }
 
         private double _totalPrice;
         public double TotalPrice
         {
             get { return _totalPrice; }
-            set { _totalPrice = value; RaisePropertyChanged(() => TotalPrice); }
+            set { SetProperty(ref _totalPrice, value); }
         }
 
         private void Recalc()

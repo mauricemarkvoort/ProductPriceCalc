@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace ProductPriceCalc.Touch
+namespace ProductPriceCalc.iOS
 {
     public class Application
     {

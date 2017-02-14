@@ -5,7 +5,7 @@ using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
 using UIKit;
 
-namespace ProductPriceCalc.Touch
+namespace ProductPriceCalc.iOS
 {
     // This class is never actually executed, but when Xamarin linking is enabled it does ensure types and properties
     // are preserved in the deployed app
@@ -19,11 +19,6 @@ namespace ProductPriceCalc.Touch
             c2.Dispose();
         }
 
-        public void Include(UIButton uiButton)
-        {
-            uiButton.TouchUpInside += (s, e) =>
-                                      uiButton.SetTitle(uiButton.Title(UIControlState.Normal), UIControlState.Normal);
-        }
 
         public void Include(UIBarButtonItem barButton)
         {

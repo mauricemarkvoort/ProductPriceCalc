@@ -1,11 +1,12 @@
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
+using ProductPriceCalc.Core.ViewModels;
 using System.Drawing;
 using UIKit;
 
-namespace ProductPriceCalc.Touch.Views
+namespace ProductPriceCalc.iOS.Views
 {
-    public partial class FirstView : MvxViewController
+    public partial class FirstView : MvxViewController<FirstViewModel>
     {
         public FirstView() : base("FirstView", null)
         {

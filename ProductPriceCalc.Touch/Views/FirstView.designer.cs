@@ -9,7 +9,7 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace ProductPriceCalc.Touch.Views
+namespace ProductPriceCalc.iOS.Views
 {
     [Register ("FirstView")]
     partial class FirstView

@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using MvvmCross.Platform.Platform;
 
-namespace ProductPriceCalc.Touch
+namespace ProductPriceCalc.iOS
 {
     public class DebugTrace : IMvxTrace
     {
